@@ -1,0 +1,10 @@
+{
+  "_note": "UNCONFIRMED rules for Karnataka. A property professional should review before real use.",
+  "required_docs": ["sale_deed", "encumbrance_certificate", "tax_receipt"],
+  "key_fields": ["survey_no", "khata_no"],
+  "match_fields": ["survey_no", "khata_no", "owner_name"],
+  "min_tax_paid_year": 2025,
+  "name_similarity_ok": 0.85,
+  "ocr_langs": "eng+kan",
+  "model": "gemma3:4b"
+}
